@@ -1,1 +1,103 @@
 @import "tailwindcss";
+
+@theme {
+  /* Dark theme */
+  --color-dark-first-background-layer: #201f24;
+  --color-dark-second-background-layer: #191e2e;
+
+  --color-dark-background: #201f24;
+  --color-dark-background-soft: #191e2e;
+
+  --color-dark-main-background: #1c1c1e;
+  --color-dark-main-container: #16192133;
+
+  --color-dark-border: #2d3a62;
+  --color-dark-border-hover: #2e3f71;
+
+  --color-dark-text: #eee;
+  --color-dark-emphasis-text: #9dceff;
+
+  --color-dark-header-aside-border: #202024;
+
+  --color-dark-plan-choosed-text: #161921;
+  --color-dark-plan-choosed-background: #84aed8;
+
+  --color-dark-inputs-lists-background: #98999b1f;
+
+  --color-dark-table-button-background: #007bff;
+  --color-dark-table-button-background-hover: #0056b3;
+  --color-dark-table-row-aside-background: #19181d;
+  --color-dark-table-row-important: #29282c;
+  --color-dark-table-row-important-hover: #29282c55;
+
+  --color-dark-form-list-text: #98999b;
+  --color-dark-form-list-text2: #98999b30;
+  --color-dark-select-li-theme-card: #696969;
+  --color-dark-form-input-text: #eee;
+
+  --color-dark-dialog-background: #19181d;
+  --color-dark-dialog-background-border: #2e2e32;
+  --color-dark-dialog-button-focus: #101011;
+  --color-dark-dialog-button: #19181D;
+
+  --color-dark-dialog-header-buttons: #539cd4;
+  --color-dark-dialog-header-buttons-hover: #235174;
+  --color-dark-dialog-header-button-visited: white;
+  --color-dark-dialog-header-buttons-not-visited: #737373;
+  --color-dark-dialog-button-next: #386898;
+  --color-dark-dialog-button-text: white;
+
+  --color-dark-config-li-background: #98999b49;
+
+  --color-dark-success-color: #4ade80;
+  --color-dark-warning-color: #fbbf24;
+  --color-dark-danger-color: #f87171;
+
+  /* Light theme */
+  --color-light-first-background-layer: #ffffff;
+  --color-light-second-background-layer: #f0f0f0;
+
+  --color-light-background: #ffffff;
+  --color-light-background-soft: #f0f0f0;
+
+  --color-light-main-background: #e6e4e1;
+  --color-light-main-container: #f0edea;
+
+  --color-light-border: #cccccc;
+  --color-light-border-hover: #b0b0b0;
+
+  --color-light-text: #3a3a3a;
+  --color-light-emphasis-text: #549DD4;
+
+  --color-light-header-aside-border: #e0e0e0;
+
+  --color-light-plan-choosed-text: #ffffff;
+  --color-light-plan-choosed-background: #1a1a1a;
+
+  --color-light-inputs-lists-background: #e0e0e0;
+
+  --color-light-table-button-background: rgba(83,156,212,0.6);
+  --color-light-table-button-background-hover: rgb(83,156,212);
+  --color-light-table-row-aside-background: #f9f9f9;
+  --color-light-table-row-important: #e0e0e0;
+  --color-light-table-row-important-hover: #e0e0e055;
+
+  --color-light-form-list-text: #4e4e4e;
+  --color-light-form-list-text2: #4e4e4e30;
+  --color-light-select-li-theme-card: #333333;
+  --color-light-form-input-text: #333333;
+
+  --color-light-dialog-background: #e6e6e6;
+  --color-light-dialog-background-border: #39393e;
+  --color-light-dialog-button: #e6e6e6;
+  --color-light-dialog-button-focus: #cecece;
+
+  --color-light-dialog-header-buttons: #007bff;
+  --color-light-dialog-header-buttons-hover: #0056b3;
+  --color-light-dialog-header-button-visited: #7a7a7a;
+  --color-light-dialog-header-buttons-not-visited: #161616;
+  --color-light-dialog-button-next: #007bff;
+  --color-light-dialog-button-text: #39393e;
+
+  --color-light-config-li-background: rgba(46, 46, 46, 0.286);
+}
