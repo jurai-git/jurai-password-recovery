@@ -15,7 +15,7 @@ export function updatePassword(token: string, newpwd: string) {
         error: null
     });
 
-    fetchWithTimeout("http://localhost:5000/advogado/reset-password/", {
+    fetchWithTimeout("/advogado/reset-password/", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'
