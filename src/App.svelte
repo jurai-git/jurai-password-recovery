@@ -6,7 +6,7 @@
     import { passwordUpdateState, updatePassword } from "./lib/core/services/passwordUpdateService";
 
   // this will be loaded with the token and username, and an error if they are wrong
-  let recoveryData: AsyncState<AccountRecoveryData> = $state({
+  let recoveryData: AsyncState<AccountRecoveryData | null> = $state({
     data: null,
     error: null,
     loading: true
@@ -101,7 +101,6 @@
               Mostrar senhas
             </label>
           </div>
-
 
           <button class="
                   cursor-pointer bg-light-emphasis-text/80 dark:bg-dark-emphasis-text/80 text-white dark:text-black
