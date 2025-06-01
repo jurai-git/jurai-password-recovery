@@ -80,15 +80,15 @@
 
 </script>
 
-<div class="bg-light-main-background dark:bg-dark-main-background min-h-dvh flex flex-col">
+<div class="bg-light-main-background dark:bg-dark-main-background min-h-dvh justify-start flex items-center w-full flex-col">
   <Header>
   </Header>
-    <main class="h-full flex items-center justify-center grow px-6">
+    <main class="h-full flex items-center flex-col pt-8 md:pt-16 lg:pt-0 lg:justify-center lg:-translate-y-20 justify-start grow px-6 w-full">
       {#if recoveryData.loading}
         <p>Carregando dados...</p>
       {:else if recoveryData.error === null}
         {#if !$passwordUpdateState.data.done}
-        <section class="w-full max-w-[600px] h-fit -translate-y-20 md:translate-y-10 sm:translate-y-0 bg-light-background dark:bg-dark-background p-4 border-2 border-light-config-li-background dark:border-dark-config-li-background rounded-xl shadow-2xl flex flex-col gap-1 justify-start items-center">
+        <section class="w-full max-w-[600px] h-fit md:translate-y-10 sm:translate-y-0 bg-light-background dark:bg-dark-background p-4 border-2 border-light-config-li-background dark:border-dark-config-li-background rounded-xl shadow-2xl flex flex-col gap-1 justify-start items-center">
           <h2 class="text-center w-full text-light-emphasis-text dark:text-dark-emphasis-text text-2xl pb-8 pt-2">Recuperação de Senha JurAI</h2>
           <h4 class="text-lg pb-4">{recoveryData.data!.username}, insira a sua nova senha:</h4>
 
